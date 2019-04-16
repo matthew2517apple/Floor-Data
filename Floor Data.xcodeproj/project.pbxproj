@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F3EDDD962266896000DF06DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDD952266896000DF06DC /* AppDelegate.swift */; };
-		F3EDDD982266896000DF06DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDD972266896000DF06DC /* ViewController.swift */; };
 		F3EDDD9B2266896000DF06DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EDDD992266896000DF06DC /* Main.storyboard */; };
 		F3EDDD9E2266896000DF06DC /* Floor_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDD9C2266896000DF06DC /* Floor_Data.xcdatamodeld */; };
 		F3EDDDA02266896200DF06DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EDDD9F2266896200DF06DC /* Assets.xcassets */; };
 		F3EDDDA32266896200DF06DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EDDDA12266896200DF06DC /* LaunchScreen.storyboard */; };
 		F3EDDDAE2266896200DF06DC /* Floor_DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDDAD2266896200DF06DC /* Floor_DataTests.swift */; };
 		F3EDDDB92266896200DF06DC /* Floor_DataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDDB82266896200DF06DC /* Floor_DataUITests.swift */; };
+		F3EDDDC722668ADE00DF06DC /* FloorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDDC622668ADE00DF06DC /* FloorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F3EDDD922266896000DF06DC /* Floor Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floor Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EDDD952266896000DF06DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3EDDD972266896000DF06DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3EDDD9A2266896000DF06DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3EDDD9D2266896000DF06DC /* Floor_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Floor_Data.xcdatamodel; sourceTree = "<group>"; };
 		F3EDDD9F2266896200DF06DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		F3EDDDB42266896200DF06DC /* Floor DataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floor DataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EDDDB82266896200DF06DC /* Floor_DataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor_DataUITests.swift; sourceTree = "<group>"; };
 		F3EDDDBA2266896200DF06DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EDDDC622668ADE00DF06DC /* FloorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				F3EDDD952266896000DF06DC /* AppDelegate.swift */,
-				F3EDDD972266896000DF06DC /* ViewController.swift */,
 				F3EDDD992266896000DF06DC /* Main.storyboard */,
+				F3EDDDC622668ADE00DF06DC /* FloorTableViewController.swift */,
 				F3EDDD9F2266896200DF06DC /* Assets.xcassets */,
 				F3EDDDA12266896200DF06DC /* LaunchScreen.storyboard */,
 				F3EDDDA42266896200DF06DC /* Info.plist */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3EDDD982266896000DF06DC /* ViewController.swift in Sources */,
 				F3EDDD962266896000DF06DC /* AppDelegate.swift in Sources */,
 				F3EDDD9E2266896000DF06DC /* Floor_Data.xcdatamodeld in Sources */,
+				F3EDDDC722668ADE00DF06DC /* FloorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
